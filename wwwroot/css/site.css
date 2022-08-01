@@ -16,3 +16,31 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.item-conainer {
+  min-width: 25%;
+  text-align: center;
+  padding: .4rem;
+}
+
+.item{
+  display: block;
+  border: solid 1px lightcoral;
+  padding: 2rem 1 rem;
+  margin-bottom: .5rem;
+  border-radius: 4px;
+  box-shadow:
+  0 4px 8px 0 rgba(0,0,0,0.5),
+  0 6px 20px 0 rgba(0,0,0,0.5);
+  transition: box-shadow 0.25s;
+}
+
+.item:hover {
+  box-shadow: inset
+  0 4px 8px 0 rgba(0,0,0,0.5)
+  0 6px 20px 0 rgba(0,0,0,0.5);
+}
+
+.item-traits p{
+  margin: .2rem 0;
+}
