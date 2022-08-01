@@ -6,8 +6,9 @@ namespace SwapiMVC.Controllers;
 
 public class HomeController : Controller
 {
+    //ILogger field
     private readonly ILogger<HomeController> _logger;
-
+    // constructor 
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
