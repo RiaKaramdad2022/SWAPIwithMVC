@@ -18,7 +18,7 @@ public class HomeController : Controller
     {
         string[] names = new[] {"Alex", "Alicia", "TommyHilfiger", "KennethCole", "PaulTheRandomGuy"};
         string name = names[_random.Next(0, names.Length)];
-        return View();
+        return View(model: name);
     }
 
     public IActionResult Privacy()
